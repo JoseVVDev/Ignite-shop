@@ -18,24 +18,3 @@ export const Container = styled('div', {
     alignItems: 'center',
     justifyContent: 'space-between'
   })
-
-  export const Cart = styled('button', {
-    width: '48px',
-    height: '48px',
-    backgroundColor: '$gray800',
-    cursor: 'pointer',
-    border: 'none',
-    borderRadius: '8px',
-    position: 'relative',
-    
-    div: {
-      position: 'absolute',
-      top: -6,
-      right: -6,
-      padding: '2px 6px',
-      border: '2px solid $gray900',
-      fontSize: '0.85rem',
-      borderRadius: '99999px',
-      backgroundColor: '$green300'
-    }
-  })
