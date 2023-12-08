@@ -17,6 +17,7 @@ export default function ShoppingCart() {
                 <CartProduct />
                 <CartProduct />
                 <CartProduct />
+                <section/>
                 <footer>
                     <h5>
                         <span>Quantidade</span>
@@ -28,7 +29,7 @@ export default function ShoppingCart() {
                     </h3>
                 </footer>
                 <button>
-                    ola amigo
+                    Finalizar compra
                 </button>
             </ShoppingCartModal>
         </>

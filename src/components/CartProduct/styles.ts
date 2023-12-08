@@ -4,7 +4,7 @@ export const CartProductContainer = styled('div', {
     display: 'flex',
     flexDirection: 'row',
     height: '94px',
-    gap: 20
+    gap: 20,
 })
 
 export const CartProductImg = styled('div', {
@@ -33,4 +33,5 @@ export const CartProductDescription = styled('div', {
         fontSize: '16px',
         fontWeight: '600',
     }
+
 })

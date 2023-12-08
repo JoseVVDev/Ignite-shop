@@ -41,6 +41,7 @@ export const ShoppingCartModal = styled('aside', {
     display: 'flex',
     flexDirection: 'column',
     gap: 20,
+    overflowY: 'scroll',
 
     svg: {
       alignSelf: 'flex-end'
@@ -50,6 +51,10 @@ export const ShoppingCartModal = styled('aside', {
       marginTop: '20px',
       marginBottom: '30px',
       padding: '0px'
+    },
+
+    section: {
+      marginBottom: '100px'
     },
 
     footer: {
@@ -78,7 +83,28 @@ export const ShoppingCartModal = styled('aside', {
         '& span:nth-child(2)': {
           fontSize: '24px'
         }
+      },
+    },
+
+    button: {
+      marginTop: '40px',
+      backgroundColor: '$green500',
+      border: 0,
+      color: '$white',
+      borderRadius: 8,
+      padding: '1.25rem',
+      cursor: 'pointer',
+      fontWeight: 'bold',
+      fontSize: '$md',
+  
+      '&:disabled': {
+        opacity: 0.6,
+        cursor: 'not-allowed',
+      },
+  
+      '&:not(:disabled):hover':  {
+        backgroundColor: '$green300',
       }
-    }
+    },
     
   })
